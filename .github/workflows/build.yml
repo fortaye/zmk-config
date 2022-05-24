@@ -56,3 +56,12 @@ jobs:
         with:
           name: firmware
           path: twoyo_right_nice_nano.uf2
+          
+        include:
+          board: nice_nano
+          shield: twoyo_left
+          board: nice_nano
+          shield: twoyo_right
+          board: nice_nano
+          shield: settings_reset
+          
